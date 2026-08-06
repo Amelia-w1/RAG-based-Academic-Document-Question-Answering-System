@@ -160,5 +160,10 @@ python gui_app.py
 pytest
 ```
 
-## 展示
-![GUI Screenshot](assets/readme/pic.png)
+## 截图展示
+
+![Hero](assets/readme/hero-banner.svg)
+
+下图为程序窗口的实际渲染截图（README 演示数据）：
+
+![GUI Screenshot](assets/readme/gui-real.png)
