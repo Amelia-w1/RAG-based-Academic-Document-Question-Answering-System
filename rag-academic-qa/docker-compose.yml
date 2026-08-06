@@ -1,0 +1,25 @@
+# ========================
+# RAG 学术文献问答系统 — Docker Compose
+# 一键启动: docker compose up
+# ========================
+
+services:
+  rag-qa:
+    build: .
+    container_name: rag-academic-qa
+    volumes:
+      # 持久化: 论文目录、向量库、日志
+      - ./data/papers:/app/data/papers
+      - ./faiss_index:/app/faiss_index
+      - ./logs:/app/logs
+      # 配置文件
+      - ./.env:/app/.env:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    # 默认 CLI 模式，可通过 command 覆盖
+    # CLI 单次提问:  command: ["ask", "什么是图像去噪？"]
+    # 构建索引:      command: ["build", "--force"]
+    # 交互模式:      command: ["chat"]
+    stdin_open: true
+    tty: true
+    restart: "no"
