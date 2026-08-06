@@ -159,3 +159,6 @@ python gui_app.py
 ```bash
 pytest
 ```
+
+## 展示
+![GUI Screenshot](assets/readme/pic.png)
