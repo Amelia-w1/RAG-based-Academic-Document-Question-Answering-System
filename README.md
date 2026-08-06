@@ -162,7 +162,8 @@ pytest
 
 ## 截图展示
 
-![Hero](assets/readme/hero-banner.svg)
+![GUI Overview](assets/readme/gui-overview.svg)
+
 
 下图为程序窗口的实际渲染截图（README 演示数据）：
 
