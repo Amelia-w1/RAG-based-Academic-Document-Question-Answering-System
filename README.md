@@ -162,9 +162,8 @@ pytest
 
 ## 截图展示
 
-![GUI Overview](assets/readme/gui-overview.svg)
-
+![GUI Overview](rag-academic-qa/assets/readme/gui-overview.svg)
 
 下图为程序窗口的实际渲染截图（README 演示数据）：
 
-![GUI Screenshot](assets/readme/pic.png)
+![GUI Screenshot](rag-academic-qa/assets/readme/pic.png)
