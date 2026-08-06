@@ -1,0 +1,61 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="40" x2="980" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1100" cy="90" r="120" fill="#38BDF8" fill-opacity="0.10"/>
+  <circle cx="1020" cy="270" r="180" fill="#22C55E" fill-opacity="0.08"/>
+  <path d="M0 286C150 250 240 246 378 270C518 294 650 346 792 324C934 301 1036 210 1280 230V360H0V286Z" fill="#0B1220" fill-opacity="0.55"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="56" width="520" height="248" rx="24" fill="#0B1220" fill-opacity="0.92" stroke="#334155"/>
+    <rect x="636" y="56" width="572" height="248" rx="24" fill="#0B1220" fill-opacity="0.92" stroke="#334155"/>
+  </g>
+
+  <rect x="102" y="86" width="130" height="28" rx="14" fill="url(#accent)"/>
+  <text x="167" y="105" text-anchor="middle" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">RAG QA</text>
+
+  <text x="102" y="162" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">学术文献问答系统</text>
+  <text x="102" y="202" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18">本地论文建库 · 语义检索 · 重排序 · 引用溯源</text>
+  <text x="102" y="236" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15">CLI / GUI 双入口，支持多轮对话与流式回答。</text>
+
+  <g>
+    <rect x="102" y="258" width="90" height="28" rx="14" fill="#1E293B" stroke="#475569"/>
+    <text x="147" y="277" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">FAISS</text>
+    <rect x="200" y="258" width="92" height="28" rx="14" fill="#1E293B" stroke="#475569"/>
+    <text x="246" y="277" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">LangGraph</text>
+    <rect x="300" y="258" width="102" height="28" rx="14" fill="#1E293B" stroke="#475569"/>
+    <text x="351" y="277" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">DashScope</text>
+  </g>
+
+  <rect x="674" y="86" width="504" height="28" rx="14" fill="#111827" stroke="#334155"/>
+  <text x="700" y="105" fill="#60A5FA" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">问答</text>
+  <text x="748" y="105" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">“Restormer 的核心创新是什么？”</text>
+
+  <rect x="674" y="132" width="210" height="118" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="898" y="132" width="210" height="118" rx="18" fill="#111827" stroke="#334155"/>
+
+  <text x="694" y="158" fill="#22C55E" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">检索结果</text>
+  <text x="694" y="184" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">[片段1] restormer.pdf</text>
+  <text x="694" y="206" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">页码 3 · 相关性 0.89</text>
+  <text x="694" y="228" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">引用片段自动溯源</text>
+
+  <text x="918" y="158" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">生成回答</text>
+  <text x="918" y="184" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13">结论 / 依据 / 小结</text>
+  <text x="918" y="206" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">流式输出，边看边答</text>
+  <text x="918" y="228" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">引用与正文分离展示</text>
+
+  <rect x="674" y="268" width="434" height="20" rx="10" fill="#0F172A" stroke="#334155"/>
+  <rect x="674" y="268" width="296" height="20" rx="10" fill="url(#accent)"/>
+</svg>
