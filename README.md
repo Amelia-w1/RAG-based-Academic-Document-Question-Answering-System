@@ -166,4 +166,4 @@ pytest
 
 下图为程序窗口的实际渲染截图（README 演示数据）：
 
-![GUI Screenshot](assets/readme/gui-real.png)
+![GUI Screenshot](assets/readme/pic.png)
